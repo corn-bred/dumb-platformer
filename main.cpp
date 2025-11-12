@@ -462,17 +462,6 @@ int main(int argc, char *argv[])
     Tilemap tilechunk[4] = {tilemap, tilemap2, tilemap3, tilemap4};
 
     yvelo = -0.1;
-    cout << R"(
-    I make a small game to see if I am able to combine my 
-    skills into one. It should just take a few months, but 
-    that's it. I want to have a feel for what making a big 
-    game would be like, and I would also like to brainstorm 
-    some ideas I could use for my game. I would also test 
-    different game engines, like Unity, Unreal Engine, and 
-    Godot. I also wanted to test some styles of gameplay, 
-    like Rhythm, action, and puzzle.)" << endl;
-
-
 
 	while (!quit) {
 		while (SDL_PollEvent(&event) != 0) {
@@ -589,3 +578,4 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+
